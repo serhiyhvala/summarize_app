@@ -1,6 +1,6 @@
 .inputField {
-  @apply p-[5px] border rounded flex items-center justify-center w-full max-w-[300px];
-  @apply sm:max-w-[500px];
+  @apply p-[5px] border rounded flex items-center justify-center max-w-xl w-full;
+  @apply sm:max-w-xl;
 }
 
 input {

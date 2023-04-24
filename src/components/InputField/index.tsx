@@ -1,12 +1,15 @@
+import { useActions } from '@hooks/useActions.ts'
 import { FormEvent, useState } from 'react'
 import { AiOutlineEnter } from 'react-icons/ai'
 
 import styles from './inputField.module.scss'
 
 const InputField = () => {
+	const { updateInputField } = useActions()
 	const [link, setLink] = useState('')
 	const handleSubmitForm = (e: FormEvent<HTMLFormElement>) => {
 		e.preventDefault()
+		updateInputField(link)
 		setLink('')
 	}
 	return (
@@ -23,5 +26,4 @@ const InputField = () => {
 		</form>
 	)
 }
-
 export default InputField
