@@ -7,7 +7,7 @@ const Header = () => {
 		<header>
 			<div className={styles.logo}>AI Summarize</div>
 			<Button>
-				<a href='https://github.com/' target='_blank'>
+				<a href='https://github.com/serhiyhvala/summarize_app' target='_blank'>
 					Github
 				</a>
 			</Button>
