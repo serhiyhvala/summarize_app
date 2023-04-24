@@ -2,3 +2,21 @@
   @apply mt-10 flex flex-col gap-5 justify-center items-center;
   @apply sm:mt-16
 }
+
+.state {
+  @apply text-2xl text-blue-500 font-bold;
+}
+
+.article {
+  @apply text-xl font-bold
+}
+
+.summary {
+  @apply max-w-xl w-full;
+  @apply rounded-xl border border-gray-200 bg-white/20;
+  @apply shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-4;
+}
+
+span {
+  @apply text-blue-500
+}
