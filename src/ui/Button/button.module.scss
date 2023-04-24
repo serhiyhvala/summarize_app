@@ -1,0 +1,4 @@
+.button {
+  @apply text-white font-bold bg-black py-[10px] px-[15px] rounded cursor-pointer;
+  @apply hover:text-black hover:bg-white ease-in duration-200
+}
