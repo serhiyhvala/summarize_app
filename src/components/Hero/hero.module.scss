@@ -1,0 +1,14 @@
+.hero {
+  @apply text-center mt-[50px]
+}
+.text {
+  @apply font-bold text-4xl;
+  span {
+    @apply text-white bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text
+  }
+  @apply sm:text-5xl
+}
+
+.desc {
+  @apply mt-[20px] text-gray-400
+}
