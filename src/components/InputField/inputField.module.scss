@@ -1,0 +1,12 @@
+.inputField {
+  @apply p-[5px] border rounded flex items-center justify-center w-full max-w-[300px];
+  @apply sm:max-w-[500px];
+}
+
+input {
+  @apply w-full bg-transparent focus:border-black focus:outline-none focus:ring-0
+}
+
+button {
+  @apply p-[5px] border rounded hover:shadow-lg
+}
